@@ -1,0 +1,13 @@
+Start Zookeeper
+
+Start Kafka Broker
+
+Create topic
+
+List topic
+
+Start Producer
+
+Send message
+
+Receive message
