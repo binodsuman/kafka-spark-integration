@@ -1,1 +1,12 @@
 
+How to start Shell
+spark-shell
+
+Find Version
+sc.version
+
+val distData = sc.parallelize(List(1,2,3,4,5))
+distData = disData.map(a => a*a)
+
+var names = sc.textFile("students.txt")
+names.collect()
