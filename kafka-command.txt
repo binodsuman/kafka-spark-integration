@@ -21,3 +21,16 @@ Receive message
 >bin\wndows\kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 How are you
 Binod Suman Academy
+
+For Latest Version 2.13
+
+./zookeeper-server-start.sh ../config/zookeeper.properties
+./kafka-server-start.sh ../config/server.properties
+./kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+./kafka-topics.sh --list --bootstrap-server localhost:9092
+
+./kafka-console-producer.sh --broker-list localhost:9092 --topic test
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+
+
+
